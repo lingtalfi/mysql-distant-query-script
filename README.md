@@ -51,7 +51,7 @@ How to use (installation guide)
     1. Go to your web application, and create the pawn.
     
     The pawn is the script that our local machine communicates with when we execute mysql queries (from our local terminal).
-    The code of the pawn is [here]( TODO: pawn ).
+    The code of the pawn is [here]( https://github.com/lingtalfi/mysql-distant-query-script/blob/master/mydb_pawn.php ).
     
     The pawn shouldn't be directly accessible by the webserver (don't put it in your www folder), and should not be executable
     by users other than you.
