@@ -52,6 +52,7 @@ DDD;
 
 
         if (!file_exists($tmpConf) && is_writable(dirname($tmpConf))) {
+            umask(0077); // make sure other users can't read it
             file_put_contents($tmpConf, $s);
 
             // I like the -t option which makes the tabular boxes that mysql use in interactive mode.
